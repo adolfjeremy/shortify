@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Averia+Libre:wght@300;400;700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Averia Libre", cursive;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 8%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    img {
+        width: 57px;
+        height: 63px;
+    }
+    .logo-text {
+        font-size: 25px;
+        color: #000;
+        font-family: "Averia Libre", cursive;
+        font-weight: 700;
+        margin-left: 15px;
+    }
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding: 0 8%;
+    background: linear-gradient(45deg, #21d4fd 0%, #b721ff 100%);
+    .hero_cta {
+        .hero_cta_text {
+            margin-bottom: 25px;
+            h1 {
+                font-size: 60px;
+            }
+
+            p {
+                font-size: 50px;
+                margin: 0;
+                font-weight: 400;
+            }
+        }
+    }
+
+    img {
+        max-height: 500px;
+    }
+}
+
+footer {
+    background: linear-gradient(45deg, #b721ff 0%, #21d4fd 200%);
+}
