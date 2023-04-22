@@ -73,7 +73,7 @@ function Shortener() {
             component="section"
             sx={{
                 width: "100%",
-                padding: "50px 8%",
+                padding: "50px 5%",
                 fontFamily: "Averia Libre, cursive",
             }}
         >
