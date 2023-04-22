@@ -54,6 +54,9 @@ header {
     min-height: 100vh;
     padding: 0 8%;
     background: linear-gradient(45deg, #21d4fd 0%, #b721ff 100%);
+    @media (max-width: 576px) {
+        padding-top: 80px;
+    }
     .hero_cta {
         .hero_cta_text {
             margin-bottom: 25px;
@@ -71,6 +74,9 @@ header {
 
     img {
         max-height: 500px;
+        @media (max-width: 576px) {
+            max-height: 250px;
+        }
     }
 }
 

@@ -34,7 +34,7 @@ function Footer() {
                 </IconButton>
             </Box>
             <Typography
-                sx={{ color: "#fff", fontSize: "1.025rem", fontWeight: 600 }}
+                sx={{ color: "#fff", fontSize: "1rem", fontWeight: 500 }}
             >
                 &copy; Jeremy Nainggolan
             </Typography>

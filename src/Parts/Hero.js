@@ -1,11 +1,11 @@
 import React from "react";
-import { Button } from "@mui/material";
+import { Button, Grid } from "@mui/material";
 import hero from "../Images/hero.png";
 
 function Hero() {
     return (
-        <section className="hero">
-            <div className="hero_cta">
+        <Grid container component="section" className="hero">
+            <Grid item md={6} xs={12} className="hero_cta">
                 <div className="hero_cta_text">
                     <h1>Link Shortener</h1>
                     <p>
@@ -30,9 +30,11 @@ function Hero() {
                 >
                     Shortify now
                 </Button>
-            </div>
-            <img src={hero} alt="hero" />
-        </section>
+            </Grid>
+            <Grid item md={6} xs={12}>
+                <img src={hero} alt="hero" />
+            </Grid>
+        </Grid>
     );
 }
 
